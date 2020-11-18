@@ -2,9 +2,11 @@
 import {combineReducers} from "redux";
 import cakeReducer from "./cakes/cakeReducer";
 import iceCreamReducer from "./iceCream/iceCreamReducer";
+import exampleReducer from "./exampleFeature/exampleReducer";
 
 const rootReducer=combineReducers({
     cake:cakeReducer,
-    iceCream:iceCreamReducer
+    iceCream:iceCreamReducer,
+    example:exampleReducer
 })
 export default rootReducer;
